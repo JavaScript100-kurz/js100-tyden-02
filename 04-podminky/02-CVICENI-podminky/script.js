@@ -47,25 +47,3 @@ Nechte uživatele zadat, kolik bodů získal v testu (číslo mezi 0 a 100). Do 
 */
 
 
-
-/*
-Cvičení 7: Pobyt na měsíci 🌖
-Představte si, že žijete na Měsíci. Teploty se tam běžně pohybují od -173°C do +127°C. Než vylezete z domu, nejdříve zjistěte a do konzole vypište, zda je venku teplota vhodná na kraťasy a tričko s krátkým rukávem, tj. teplota mezi 20°C a 38°C.
-*/
-
-
-
-/*
-Cvičení 8: Pobyt na měsící pro mezinárodní klienty
-Vycházejte ze stejného předpokladu, jako ve cvičení 3. Tentokrát ale máte na měsíci hotel a přijde za vámi host a ptá se “Venku je 64 stupňů. Mám si vzít kraťasy nebo raději skafandr?” Bohužel jsou mezi hosty i američani, a vy nevíte, zda vám host teplotu říká jako normální člověk ve stupních Celsia, nebo po americku ve stupních Fahrenheita.
-
-Napište program, který se pomocí `prompt()` zeptá:
-- kolik je venku stupňů
-- zda host říká teplotu ve stupních Celsia nebo Fahrenheita (zadá `C` nebo `F`)
-
-Pokud host odpoví, že teplotu říká ve stupních Fahrenheita, musíte ji nejprve převést na stupně Celsia. Vzorec pro převod je `celsius = (fahrenheit - 32) * 0.5556`
-
-Pohybuje-li se teplota mezi 20°C a 38°C, doporučíte kraťasy a tričko 🩳, jinak skafandr 👩‍🚀.
-*/
-
-

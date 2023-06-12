@@ -12,7 +12,7 @@ Bonus: Pod “Přístup nepovolen” napište i důvod, proč uživatel do kniho
 
 
 /*
-Cvičení 2: Ovoce
+Cvičení 2: Ovoce 🍉
 Moje oblíbené ovoce je jahoda, meloun nebo hruška. Nechte uživatele pomocí `prompt()` zadat, jaké ovoce mi nabízí (např. “borůvky”). Do konzole vypište, zda si dnes zamlsám nebo ne (tj. zjistěte,  zda zadané ovoce je jahoda, meloun nebo hruška).
 */
 
@@ -53,8 +53,17 @@ Nechte uživatele zadat přihlašovací jméno a heslo. Jde-li o uživatele `mys
 
 
 
+
 /*
-Cvičení 8: Hipster kavárna
+Cvičení 8: Pobyt na měsíci 🌖
+Představte si, že žijete na Měsíci. Teploty se tam běžně pohybují od -173°C do +127°C. Než vylezete z domu, zeptejte se uživatele pomocí `prompt()`, jaká je venku teplota. Do konzole vypište, zda je venku teplota vhodná na kraťasy a tričko s krátkým rukávem, tj. teplota mezi 20°C a 38°C.
+*/
+
+
+
+
+/*
+Cvičení 9: Hipster kavárna
 Provozujete malou kavárnu. Nechte uživatele zadat 2 hodnoty:
 - jakou chce kávu (např. espresso, capucino, flat white, latte)
 - jak velkou ji chce (mala, stredni, velka)
@@ -65,7 +74,7 @@ Jsme kávoví snobové, takže podáváme pouze malé espresso nebo střední ca
 
 
 /*
-Cvičení 9: Výběr z bankomatu
+Cvičení 10: Výběr z bankomatu
 V programu máte dvě proměnné. V jedné je, kolik peněz má uživatel na účtu. V druhé je, kolik peněz má bankomat k dispozici. Nechte uživatele zadat, kolik peněz si chce vybrat.
 
 Má-li dostatek peněz na účtu a bankomat má celou částku k dispozici, napište do konzole “Výběr v pořádku prooveden”.
@@ -74,3 +83,17 @@ V opačném případě napište “Chyba při výběru”. Při chybě napište,
 */
 
 
+
+
+/*
+Cvičení 11: Pobyt na měsící pro mezinárodní klienty 🚀
+Vycházejte ze stejného předpokladu, jako ve cvičení 3. Tentokrát ale máte na měsíci hotel a přijde za vámi host a ptá se “Venku je 64 stupňů. Mám si vzít kraťasy nebo raději skafandr?” Bohužel jsou mezi hosty i američani, a vy nevíte, zda vám host teplotu říká jako normální člověk ve stupních Celsia, nebo po americku ve stupních Fahrenheita.
+
+Napište program, který se pomocí `prompt()` zeptá:
+- kolik je venku stupňů
+- zda host říká teplotu ve stupních Celsia nebo Fahrenheita (zadá `C` nebo `F`)
+
+Pokud host odpoví, že teplotu říká ve stupních Fahrenheita, musíte ji nejprve převést na stupně Celsia. Vzorec pro převod je `celsius = (fahrenheit - 32) * 0.5556`
+
+Pohybuje-li se teplota mezi 20°C a 38°C, doporučíte kraťasy a tričko 🩳, jinak skafandr 👩‍🚀.
+*/
